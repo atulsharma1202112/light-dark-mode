@@ -31,7 +31,7 @@ function switchTheme(event) {
         localStorage.setItem('theme', 'Dark');
         toggleDarkLightMode(true);
     } else {
-        document.documentElement.setAttribute('data-theme', 'Dight');
+        document.documentElement.setAttribute('data-theme', 'Light');
         localStorage.setItem('theme', 'Light');
         toggleDarkLightMode(false);
     }
